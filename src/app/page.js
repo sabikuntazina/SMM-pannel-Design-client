@@ -5,9 +5,10 @@ import Footer from "@/components/Footer";
 import GrowthStrategy from "@/components/GrowthStrategy";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import PaymentMethods from "@/components/PaymentMethods";
 import ServicesSection from "@/components/ServicesSection";
 import WorkingProcess from "@/components/WorkingProcess";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
   <WorkingProcess></WorkingProcess>
   <ServicesSection></ServicesSection>
   <GrowthStrategy></GrowthStrategy>
+  <PaymentMethods></PaymentMethods>
   <Advantages></Advantages>
   <FAQ></FAQ>
   <CtaSection></CtaSection>
